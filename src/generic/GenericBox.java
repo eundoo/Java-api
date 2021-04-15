@@ -1,6 +1,7 @@
 package generic;
 
 public class GenericBox<T> {
+	
 	private T item;
 
 	public T getItem() {

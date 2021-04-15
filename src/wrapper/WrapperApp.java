@@ -4,7 +4,6 @@ public class WrapperApp {
 
 	public static void main(String[] args) {
 
-
 		int x = 10;
 		//박싱(Boxing) 기본자료형값을 객체를 생성해서 저장하는 것
 		Integer i = new Integer(10);
@@ -32,6 +31,7 @@ public class WrapperApp {
 							//변수 x1에 대입된다.
 		double x2 = a2;
 		boolean x3 = a3;
+		
 	}
 
 }
