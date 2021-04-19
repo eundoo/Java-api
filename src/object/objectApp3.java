@@ -1,6 +1,6 @@
 package object;
 
-public class objectApp3 {
+public class ObjectApp3 {
 
 	public static void main(String[] args) {
 		Person p1 = new Person(10, "홍길동", "hong@gamil.com");

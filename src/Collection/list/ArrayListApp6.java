@@ -1,4 +1,4 @@
-package Collection.list;
+package collection.list;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -25,7 +25,7 @@ public class ArrayListApp6 {
 			System.out.println(item.getNo() + "\t" + item.getName() + "\t" + item.getPoint());
 		}
 		
-		//Product에 @Override안해놨을때는 기존에있는걸 따라가기때문에
+		//Product에 @Override안 해놨을 때는 기존에있는걸 따라가기때문에
 		//여기서 comparator객체를 만들어 놔야함
 		System.out.println("### 이름으로 정렬하기");
 		// Comparator<E> 인터페이스 int compare(T t1,T t2);

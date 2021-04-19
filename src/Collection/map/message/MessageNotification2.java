@@ -1,4 +1,4 @@
-package Collection.map.message;
+package collection.map.message;
 
 import java.util.HashMap;
 

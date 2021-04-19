@@ -1,4 +1,4 @@
-package Collection.map.message;
+package collection.map.message;
 
 public interface MessageSender {
 	

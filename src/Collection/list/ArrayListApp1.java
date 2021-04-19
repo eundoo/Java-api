@@ -1,4 +1,4 @@
-package Collection.list;
+package collection.list;
 
 import java.util.ArrayList;
 
@@ -29,11 +29,12 @@ public class ArrayListApp1 {
 		//ArrayList객체에 "지민" 데이터가 존재하는지 확인하기
 		System.out.println("### 지민 데이터가 존재하는지 확인하기");
 		boolean isSaved = names.contains("지민");
-		System.out.println("김유신이 저장되어 있는가?" + isSaved);
+		System.out.println("지민이 저장되어 있는가?" + isSaved);
 		
 		//ArrayList객체에서 "뷔" 데이터 삭제하기
-		System.out.println("### 강감찬 데이터 삭제하기");
+		System.out.println("### 뷔 데이터 삭제하기");
 		names.remove("뷔");
+		System.out.println(names);
 		
 		System.out.println("### ArrayList에 저장된 데이터 출력하기");
 		for(String item : names) {

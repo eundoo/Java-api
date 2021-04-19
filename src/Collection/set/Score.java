@@ -1,4 +1,4 @@
-package Collection.set;
+package collection.set;
 
 public class Score implements Comparable<Score> {
 
